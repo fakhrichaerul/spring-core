@@ -9,10 +9,10 @@
     <context:annotation-config/>
 
     <bean id="accountRepository"
-          class="com.fakhri.repository.implementation.AccountRepositoryImplementation"></bean>
+          class="com.fakhri.repository.implementation.AccountRepositoryImpl"></bean>
 
     <bean id="accountService"
-          class="com.fakhri.service.implementation.AccountServiceImplementation">
+          class="com.fakhri.service.implementation.AccountServiceImpl">
         <property name="accountRepository" ref="accountRepository"></property>
 
     </bean>

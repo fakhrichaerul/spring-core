@@ -7,7 +7,7 @@ import java.math.BigDecimal;
 import java.util.HashMap;
 import java.util.Map;
 
-public class AccountRepositoryImplementation implements AccountRepository {
+public class AccountRepositoryImpl implements AccountRepository {
 
     private Map<Long, Account> accountMap = new HashMap<Long, Account>();
     {

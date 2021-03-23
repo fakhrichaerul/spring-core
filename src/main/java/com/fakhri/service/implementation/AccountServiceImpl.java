@@ -6,7 +6,7 @@ import com.fakhri.service.AccountService;
 
 import java.math.BigDecimal;
 
-public class AccountServiceImplementation implements AccountService {
+public class AccountServiceImpl implements AccountService {
 
     private AccountRepository accountRepository;
 
