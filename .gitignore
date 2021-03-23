@@ -2,3 +2,4 @@
 spring-core-xml.iml
 *.iml
 target
+.setting
